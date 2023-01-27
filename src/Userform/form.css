@@ -1,0 +1,113 @@
+.form-bg-color {
+    background: linear-gradient(90deg, rgba(255,10,105,1) 0%, rgba(252,92,75,1) 100%);
+    padding: 25px;
+    height: 1000px;
+  }
+  
+  h1{
+      font-family:'Cabin', sans-serif;
+      font-weight: 700 !important;
+  }
+  .form-bg {
+    padding: 40px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  }
+  label {
+      color:rgb(178, 178, 178);
+  }
+  /* Account btn */
+  .row {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+  }
+  .form-control {
+    border: 0px !important;
+    border-radius: 0px !important ;
+    border-bottom: 2px solid black !important;
+    padding: 0px !important;
+  }
+  .form-control:focus {
+    box-shadow: none !important;
+    border-bottom: 3px solid blue !important;
+  }
+  .row {
+    --bs-gutter-x: 0px !important;
+    gap: 40px;
+  }
+  
+  .btn-sec div {
+    width: 33.3%;
+  }
+  .active button,
+  .non-active button {
+    font-size: 13px;
+    border: none;
+    background-color: white;
+    background-color: rgb(245, 248, 255);
+  }
+  .active,
+  .non-active {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: rgb(245, 248, 255);
+    padding-top: 20px;
+  }
+  .active {
+    border-bottom: 3px solid rgb(98, 54, 255) ;
+  }
+  .active button {
+    color: rgb(98, 54, 255) ;
+  }
+  
+  /* profile-image  */
+  #profile-container {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  .form-select , .form-range{
+      border: none !important; 
+      border-radius: 0px !important;
+      border-bottom: 2px solid black !important;
+  }
+  .form-select:focus , .form-range:focus {
+      border-color:none !important;
+      outline: 0px !important;
+      box-shadow:none !important;
+      border-bottom: 3px solid blue !important;
+  }
+  .next-btn{
+      background-color: rgb(98, 54, 255) !important;
+      padding: 10px 40px !important;
+      border-radius: 25px !important;
+  }
+  .form-check-input:checked {
+    background-color: white !important;
+    border-color: rgba(0,0,0,0.25) !important;
+  }
+  .activeRadio input:checked{
+    background-color: #0d6efd !important;
+      border-color: #0d6efd !important;
+  }
+  
+  @media (min-width: 567px) {
+    .form-bg-color {
+      padding: 50px;
+    }
+  
+  }
+  @media (min-width: 768px) {
+    .form-bg {
+      max-width: 900px;
+      width: 100%;
+      margin: auto;
+    }
+    .active button,
+    .non-active button {
+      font-size: 18px;
+    }
+  }
+  
+  
